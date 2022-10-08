@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header_info-block">
+            <span>Moves</span>
+            <span id="moves-number">0</span>
+        </div>
+        <div class="header_info-block">
+            <span>Score</span>
+            <span id="score-number">0</span>
+        </div>
+        <button class="header_info-block btn" id="btn_bests">
+            <span>Bests</span>
+        </button>
+        <button class="btn header_restart btn__restart">New</button>
+    </header>
+    <section class="board">
+        <div class="board_item-place"></div>
+        <div class="board_item-place"></div>
+        <div class="board_item-place"></div>
+        <div class="board_item-place"></div>
+        <div class="board_item-place"></div>
+        <div class="board_item-place"></div>
+        <div class="board_item-place"></div>
+        <div class="board_item-place"></div>
+        <div class="board_item-place"></div>
+        <div class="board_item-place"></div>
+        <div class="board_item-place"></div>
+        <div class="board_item-place"></div>
+        <div class="board_item-place"></div>
+        <div class="board_item-place"></div>
+        <div class="board_item-place"></div>
+        <div class="board_item-place"></div>
+        <!-- <div class="board_item board_item__2">2</div>
+        <div class="board_item board_item__4">4</div>
+        <div class="board_item board_item__8">8</div>
+        <div class="board_item board_item__16">16</div>
+        <div class="board_item board_item__32">32</div>
+        <div class="board_item board_item__64">64</div>
+        <div class="board_item board_item__128">128</div>
+        <div class="board_item board_item__256">256</div>
+        <div class="board_item board_item__512">512</div>
+        <div class="board_item board_item__1024">1024</div>
+        <div class="board_item board_item__2048">2048</div>
+        <div class="board_item board_item__2049">2049</div> -->
+    </section>
+    <dialog class="dialog" id="gameover-dialog">
+        <div class="dialog_gameover">
+            Gameover
+            <button class="dialog_restart btn btn__restart">Restart</button>
+        </div>
+    </dialog>
+    <dialog class="dialog" id="scorelist-dialog">
+        <div class="scorelist">
+            <h1 class="scorelist_title">Scorelist</h1>
+            <ul class="scorelist_list">
+                <!-- <li class="scorelist_item">
+                    <div class="scorelist_name">Mom</div>
+                    <div class="scorelist_score">10000</div>
+                </li> -->
+                <!-- <li class="scorelist_item">
+                    <div class="scorelist_name">Mom</div>
+                    <div class="scorelist_score">10000</div>
+                </li>
+                <li class="scorelist_item">
+                    <div class="scorelist_name">Mom</div>
+                    <div class="scorelist_score">10000</div>
+                </li>
+                <li class="scorelist_item">
+                    <div class="scorelist_name">Mom</div>
+                    <div class="scorelist_score">10000</div>
+                </li>
+                <li class="scorelist_item">
+                    <div class="scorelist_name">Mom</div>
+                    <div class="scorelist_score">100000000</div>
+                </li>
+                <li class="scorelist_item">
+                    <div class="scorelist_name">Mom</div>
+                    <div class="scorelist_score">10000</div>
+                </li>
+                <li class="scorelist_item">
+                    <div class="scorelist_name">Mom</div>
+                    <div class="scorelist_score">10000</div>
+                </li> -->
+            </ul>
+            <button class="btn btn_close" id="scorelist_close">Close</button>
+        </div>
+    </dialog>
+</body>
+
+</html>

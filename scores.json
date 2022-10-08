@@ -1,0 +1,14 @@
+{
+    "bests" : [
+        {"name": "Bot1", "score": 10000},
+        {"name": "Bot2", "score": 1000},
+        {"name": "None", "score": 0},
+        {"name": "None", "score": 0},
+        {"name": "None", "score": 0},
+        {"name": "None", "score": 0},
+        {"name": "None", "score": 0},
+        {"name": "None", "score": 0},
+        {"name": "None", "score": 0},
+        {"name": "None", "score": 0}
+    ]
+}
